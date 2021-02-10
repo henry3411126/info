@@ -5,6 +5,6 @@ title: About
 
 Hello.
 
-I'm Henry.
+I am Henry.
 
-
+**Less is more..**
