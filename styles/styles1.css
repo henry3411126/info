@@ -1,12 +1,48 @@
 html {
- 	 background-color: #C1DCDD;
+ 	width: auto;
+ 	background-color: #C1DCDD;
   	font-family: 'Noto Sans TC', sans-serif;
   	margin: 0 auto;
 }
 
+
+#top{
+	position: relative;
+	width: auto;
+	height: 80px;
+	background-color: #006F72;
+	padding: 20px 0 0 0;
+	margin: 0 auto;
+}
+
+#main {
+	position: relative;
+	width: 310px;
+	margin: 20px auto;
+	background-color: #FFFFFF;
+	border-radius: 20px 20px 20px 20px;
+	padding: 20px 0 20px 0;
+}
+
+#logo {
+	position: relative;
+	max-width: 150px;
+	display: block;
+  	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+}
+
+#next {
+	position: relative;
+	top: 20px;
+  	left: 235px;
+	max-width: 50px;
+  	padding: 10px 10px 10px 10px;
+
+}
+
 body {
  	margin: 0 auto;
-  	position: relative;
 }
 
 h1 {
@@ -19,32 +55,4 @@ p, ol {
   	text-align: left;
   	line-height: 2;
   	letter-spacing: 1px;
-}
-
-#top{
-	width: auto;
-	height: 80px;
-	background-color: #006F72;
-	padding: 20px 0 0 0;
-}
-
-#main {
-	width: 300px;
-	margin: 20px auto;
-	background-color: #FFFFFF;
-	border-radius: 20px 20px 20px 20px;
-	padding: 20px 0 20px 0;
-}
-
-#logo {
-	max-width: 150px;
-	display: block;
-  	margin: 0 auto;
-	padding: 10px 10px 10px 10px;
-}
-
-#next {
-	max-width: 50px;
-  	margin: 0 220px;
-  	padding: 10px 10px 10px 10px;
 }
