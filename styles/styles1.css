@@ -17,7 +17,7 @@ html {
 
 #main {
 	position: relative;
-	width: 90%; /*310px 80%*/
+	width: 310px; /*310px 80%*/
 	margin: 20px auto;
 	background-color: #FFFFFF;
 	border-radius: 20px 20px 20px 20px;
@@ -39,6 +39,12 @@ html {
 	max-width: 60px;
   	padding: 10px 10px 10px 10px;
 
+}
+
+#submit{
+	position: relative;
+	padding: 10px 10px 10px 10px;
+	left: 70%;
 }
 
 h3 {
