@@ -13,15 +13,37 @@
 		<div id="top">
 			<div id="main">
 				<img src="images/logo-2.png" alt="logo" id="logo">
-				<h1>基本資料</h1>
+				<form>
+
 				<ol>
+				<h3>基本資料</h3>
 					<li>姓名：<br><input type="text" name="name"><br></li>
 					<li>聯絡電話：<br><input type='text' name="phone"><br></li>
 					<li>電子郵件：<br><input type='text' name="email"><br></li>
 					<li>所屬單位：<br><input type='text' name="department"><br></li>
 					<li>受訪單位：<br><input type='text' name="invite"><br></li>
 					<li>接待窗口/聯絡人：<br><input type='text' name="reception"><br></li>
+				
+				<h3>出入境旅遊史</h3>
+					<li>近一個月內有無出國？<br>
+					<INPUT type=radio name=abroad value=YES>是<br>
+					<INPUT type=radio name=abroad value=NO>否<br>
+					</li>
+
+				<h3>相關症狀</h3>
+					<li>最近 14 天內是否出現以下症狀？(複選) <br></li>
+					<INPUT type=checkbox name=interst value=發燒>發燒(額溫 ≧37.5°C、耳溫 ≧38°C)<br>
+					<INPUT type=checkbox name=interst value=咳嗽>咳嗽<br>
+					<INPUT type=checkbox name=interst value=喉嚨痛>喉嚨痛<br>
+					<INPUT type=checkbox name=interst value=呼吸道窘迫症狀>呼吸道窘迫症狀 (呼吸急促、呼吸困難)<br>
+					<INPUT type=checkbox name=interst value=流鼻水>流鼻水<br>
+					<INPUT type=checkbox name=interst value=肌肉或關節酸痛>肌肉或關節酸痛<br>
+					<INPUT type=checkbox name=interst value=四肢無力>四肢無力<br>
+					<INPUT type=checkbox name=interst value=其他>其他 <input type="text" name="其他症狀:"><br>
+					<INPUT type=checkbox name=interst value=無>無<br>
 				</ol>	
+
+				</form>
 				<a href="page1.html">
 					<img src="images/next.png" id="next">
 				</a>

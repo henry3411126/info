@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
 		<link rel="icon" href="icon.png" type="image/">
 		<meta charset="utf-8">
 		<title>實名制登記</title>
 		<link rel="stylesheet" href="styles/styles1.css">
-		<div id="top">
-		<a href="https://www.estinet.com/" title="Estinet Website">
-			<img src="images/logo.png" alt="logo" id="logo">
-		</a>
-		</div>
-		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 	</head>
 	<body>
-		<div id="header">
-			<h1>基本資料</h1>
-		</div>
+		<div id="top">
+			<div id="main">
+				<img src="images/logo-2.png" alt="logo" id="logo">
+				<h1>出入境旅遊史</h1>
+				<form action="test.php" method="post">
+					<ol>
+						<li>近一個月內有無出國？<br>
+						<INPUT type=radio name=abroad value=YES>是<br>
+						<INPUT type=radio name=abroad value=NO>否<br>
+						</li>
+						
 
-		<div id="main">
-			<ol>
-				<li>姓名：<br><input type="text" name="name"><br></li>
-				<li>聯絡電話：<br><input type='text' name="phone"><br></li>
-				<li>電子郵件：<br><input type='text' name="email"><br></li>
-				<li>所屬單位：<br><input type='text' name="department"><br></li>
-				<li>受訪單位：<br><input type='text' name="invite"><br></li>
-				<li>接待窗口/聯絡人：<br><input type='text' name="reception"><br></li>
-			</ol>	
-			<a href="page2.html">
-				<img src="images/next.png" id="next">
-			</a>
+					</ol>	
+				</form>
+				<a href="page2.html">
+					<img src="images/next.png" id="next">
+				</a>
+			</div>
 		</div>
 	</body>
 </html>
