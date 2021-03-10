@@ -44,7 +44,7 @@ html {
 #submit{
 	position: relative;
 	padding: 10px 10px 10px 10px;
-	left: 70%;
+	margin: 0 auto;
 }
 
 h3 {
@@ -58,7 +58,7 @@ body {
 }
 
 p, ol {
- 	font-size: 16px;
+ 	font-size: 18px;
   	text-align: left;
   	line-height: 2;
   	letter-spacing: 1px;
